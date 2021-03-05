@@ -72,6 +72,7 @@
         app:layout_constraintTop_toBottomOf="@id/email" />
 
     <Button
+        android:id="@+id/sigUp"
         style="@style/Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
