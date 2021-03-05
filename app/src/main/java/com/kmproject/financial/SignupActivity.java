@@ -23,7 +23,7 @@ public class SignupActivity extends AppCompatActivity {
 
 
         signIn = findViewById(R.id.signIn);
-
+        signUp = findViewById(R.id.sigUp);
 
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +31,15 @@ public class SignupActivity extends AppCompatActivity {
                 Intent signIn = new Intent(SignupActivity.this, SigninActivity.class);
                 startActivity(signIn);
                 finish();
+            }
+        });
+
+        signUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent signUp = new Intent(SignupActivity.this, HomeActivity.class);
+                finish();
+                startActivity(signUp);
             }
         });
 
