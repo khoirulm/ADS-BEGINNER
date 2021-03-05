@@ -3,12 +3,11 @@
     <string name="getStarted">Get Started</string>
     <string name="ilustration">Ilustration</string>
     <string name="gambar">Gambar</string>
-    <string name="login">Login</string>
+    <string name="login1">Login</string>
     <string name="please_sign_in_to_continue">Please sign in to continue</string>
     <string name="create_account">Create Account</string>
     <string name="login">Login</string>
     <string name="dont_have_an_account">Dont have an account?</string>
-    <string name="sign_up">Sign Up</string>
     <string name="sign_up">Sign Up</string>
     <string name="sign_in">Sign In</string>
     <string name="already_have_a_account">Already have a account ?</string>
