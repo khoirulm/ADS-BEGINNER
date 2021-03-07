@@ -27,6 +27,8 @@ public class OnBoardingActivity extends AppCompatActivity {
                 Intent play = new Intent(OnBoardingActivity.this, SigninActivity.class);
                 finish();
                 startActivity(play);
+                overridePendingTransition(R.anim.slide_in, R.anim.slide_in_out);
+
             }
         });
 
