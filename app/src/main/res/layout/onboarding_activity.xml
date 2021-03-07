@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:layoutDescription="@xml/onboarding_activity_start_scene"
     tools:context=".OnBoardingActivity">
 
     <ImageView
+        android:id="@+id/ImageView"
         android:layout_width="230dp"
         android:layout_height="180dp"
         android:src="@drawable/kursi"
