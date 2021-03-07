@@ -31,18 +31,19 @@ public class SignupActivity extends AppCompatActivity {
                 Intent signIn = new Intent(SignupActivity.this, SigninActivity.class);
                 startActivity(signIn);
                 finish();
+                overridePendingTransition(R.anim.no_animation, R.anim.slide_out);
             }
         });
 
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent signUp = new Intent(SignupActivity.this, HomeActivity.class);
+                Intent signUp = new Intent(SignupActivity.this, SigninActivity.class);
                 finish();
                 startActivity(signUp);
+                overridePendingTransition(R.anim.slide_in, R.anim.slide_in_out);
             }
         });
-
 
     }
 }
