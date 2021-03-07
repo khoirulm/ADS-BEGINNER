@@ -28,6 +28,7 @@ public class SigninActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent login = new Intent(SigninActivity.this, HomeActivity.class);
                 startActivity(login);
+                overridePendingTransition(R.anim.slide_in, R.anim.slide_in_out);
             }
         });
 
@@ -36,9 +37,9 @@ public class SigninActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent signUp = new Intent(SigninActivity.this, SignupActivity.class);
                 startActivity(signUp);
+                overridePendingTransition(R.anim.slide_in, R.anim.slide_in_out);
             }
         });
-
 
     }
 }
